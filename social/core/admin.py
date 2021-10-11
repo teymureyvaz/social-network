@@ -1,3 +1,5 @@
 from django.contrib import admin
+from social.core.models import Post, LikeHistory
 
-# Register your models here.
+admin.site.register(Post)
+admin.site.register(LikeHistory)
